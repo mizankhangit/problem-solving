@@ -3,7 +3,6 @@
 // order of characters
 // --- Examples
 //   reverse('apple') === 'leppa'
-//   reverse('hello') === 'olleh'
 //   reverse('Greetings!') === '!sgniteerG'
 
 // Solution 1 (with for loop)
