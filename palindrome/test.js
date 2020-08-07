@@ -24,10 +24,6 @@ test('"1000000001" is a palindrome', () => {
   expect(palindrome("1000000001")).toBeTruthy();
 });
 
-test('"Fish hsif" is not a palindrome', () => {
-  expect(palindrome("Fish hsif")).toBeFalsy();
-});
-
 test('"pennep" is a palindrome', () => {
   expect(palindrome("pennep")).toBeTruthy();
 });
