@@ -51,9 +51,9 @@ function reverse4(str) {
   //   return str === "" ? "" : reverse4(str.substr(1)) + str.charAt(0);
 }
 
-console.log(reverse1("a23a23a23"));
-console.log(reverse2("a23a23a23"));
-console.log(reverse3("a23a23a23"));
-console.log(reverse4("a23a23a23"));
+console.log(reverse1("abcdef"));
+console.log(reverse2("abcdef"));
+console.log(reverse3("abcdef"));
+console.log(reverse4("abcdef"));
 
 module.exports = reverse1;
